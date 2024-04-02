@@ -9,7 +9,7 @@ FIND_ELEMENT_BY_NUMBER() {
 }
 
 GET_ELEMENT_INFO () {
-  echo "$($PSQL "SELECT name, symbol, types.type, atomic_mass, melting_point_celsius, boiling_point_celsius FROM elements JOIN properties USING(atomic_number) JOIN types USING(type_id) WHERE atomic_number=$1")"
+  echo "$($PSQL "SELECT name, symbol, type, atomic_mass, melting_point_celsius, boiling_point_celsius FROM elements JOIN properties USING(atomic_number) JOIN types USING(type_id) WHERE atomic_number=$1")"
 }
 
 OUTPUT_ELEMENT_INFO() {
