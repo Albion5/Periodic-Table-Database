@@ -27,6 +27,7 @@ FIND_ELEMENT() {
     echo $(FIND_ELEMENT_BY_NAME "$1")
   fi
 }
+
 if [[ $# -eq 0 ]]
 then
   echo "Please provide an element as an argument."
@@ -38,5 +39,4 @@ else
   else
     OUTPUT_ELEMENT_INFO $ATOMIC_NUMBER
   fi
-
 fi
