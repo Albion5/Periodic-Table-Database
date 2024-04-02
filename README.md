@@ -79,3 +79,5 @@ If you are saving your progress on freeCodeCamp.org, after getting all the tests
 + [x] You should delete the non existent element, whose atomic_number is 1000, from the two tables
 
 + [x] Your properties table should not have a type column
+
++ [x] You should finish your project while on the main branch. Your working tree should be clean and you should not have any uncommitted changes
